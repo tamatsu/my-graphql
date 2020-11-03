@@ -1,0 +1,21 @@
+{
+  "name": "my-graphql",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "express-jwt": "^6.0.0",
+    "graphql": "^15.4.0",
+    "twitter": "^1.7.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT"
+}
